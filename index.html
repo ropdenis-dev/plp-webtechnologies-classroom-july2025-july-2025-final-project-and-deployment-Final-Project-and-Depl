@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Robie's Portfolio — Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Perplexity</a>
+      <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <nav id="primary-nav" class="nav">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home-hero">
+      <div class="container hero-inner">
+        <h1>Hi — I build clean web experiences.</h1>
+        <p>Front-end developer • learner • problem solver</p>
+        <p><a class="btn" href="about.html">Learn more</a> <a class="btn ghost" href="contact.html">Contact</a></p>
+      </div>
+    </section>
+
+    <section class="projects container animate-on-scroll">
+      <h2>Featured Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="images/project1.jpg" alt="Project 1 screenshot" />
+          <h3>Project One</h3>
+          <p>Short description of the project and technologies used.</p>
+        </article>
+
+        <article class="card">
+          <img src="images/project2.jpg" alt="Project 2 screenshot" />
+          <h3>Project Two</h3>
+          <p>Short description of the project and technologies used.</p>
+        </article>
+
+        <article class="card">
+          <img src="images/project3.jpg" alt="Project 3 screenshot" />
+          <h3>Project Three</h3>
+          <p>Short description of the project and technologies used.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-preview container animate-on-scroll">
+      <h2>About</h2>
+      <p>I'm Robie — a web developer with a focus on accessible, maintainable frontends.</p>
+      <p><a href="about.html" class="btn">Read my story</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Perplexity — All rights reserved.</p>
+      <nav>
+        <a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
